@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    
+}
+
+.container {
+    width: 575px;
+    margin: 10px auto;
+    background: #1B244A;
+    padding: 68px 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+
+.sub-container {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#sub-container-home {
+    margin-right: 100px;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.score-container {
+    min-width: 155px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    background: #080001;
+    margin-top: 20px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+                                                
+}
+
+.score {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.score-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+    background: inherit;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.score-btn:hover {
+    color: #F94F6D;
+    border: 2px solid #F94F6D;
+}
